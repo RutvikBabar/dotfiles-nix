@@ -19,7 +19,7 @@ in
 {
   imports = [ ./dotfiles.nix ];
 
-  home.homeDirectory = "/home/shreejitverma";
+  home.homeDirectory = "/home/lenovo";
 
   # Installs the `home-manager` CLI into the profile. macOS does not need this
   # (nix-darwin drives activation there), but on Linux and WSL it is what the

@@ -15,7 +15,7 @@
 
   outputs = { nixpkgs, nix-darwin, home-manager, ... }:
     let
-      username = "shreejitverma";
+      username = "lenovo";
 
       # Standalone Home Manager profiles for Linux and WSL. macOS is not here:
       # nix-darwin owns the whole machine there and activates Home Manager as a
@@ -51,7 +51,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.backupFileExtension = "backup";
-            home-manager.users.shreejitverma = import ./nix/user.nix;
+            home-manager.users.lenovo = import ./nix/user.nix;
           }
         ];
       };

@@ -13,12 +13,13 @@ in
 {
   imports = [ ./dotfiles.nix ];
 
-  home.username = "shreejitverma";
+  home.username = "lenovo";
   home.stateVersion = "23.11";
   home.language.base = "en_US.UTF-8";
 
   home.packages = with pkgs; [
     git
+    gh
     curl
     wget
     jq
@@ -96,10 +97,10 @@ in
     ];
     settings = {
       user = {
-        name = "Shreejit Verma";
-        email = "shreejitverma@gmail.com";
+        name = "Rutvik Babar";
+        email = "rutvikbabar@gmail.com";
       };
-      github.user = "shreejitverma";
+      github.user = "RutvikBabar";
       gpg.ssh.allowedSignersFile = "~/github/.fleet/allowed_signers";
       core.editor = "vim";
       color.ui = true;
